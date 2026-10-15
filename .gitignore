@@ -31,6 +31,7 @@ htmlcov/
 
 # Editors / OS
 .vscode/
+*.session.sql
 .idea/
 *.swp
 .DS_Store
