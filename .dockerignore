@@ -1,0 +1,40 @@
+# Secrets — compose injects these at runtime via env_file; never bake them into the image
+.env
+.env.*
+
+# VCS
+.git
+.gitignore
+
+# Docker files themselves
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Testing / tooling caches
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Local data and docs not needed at runtime
+*.db
+*.sqlite
+*.sqlite3
+learning-notes.txt
+README.md
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
